@@ -23,6 +23,7 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.BbButton検索1 = New BB.BBButton検索()
+        Me.BbButton検索2 = New BB.BBButton検索()
         Me.SuspendLayout()
         '
         'BbButton検索1
@@ -34,9 +35,19 @@ Partial Class Form1
         Me.BbButton検索1.TabIndex = 0
         Me.BbButton検索1.Text = "検索"
         '
+        'BbButton検索2
+        '
+        Me.BbButton検索2.BBメッセージ表示名 = Nothing
+        Me.BbButton検索2.Location = New System.Drawing.Point(117, 170)
+        Me.BbButton検索2.Name = "BbButton検索2"
+        Me.BbButton検索2.Size = New System.Drawing.Size(106, 21)
+        Me.BbButton検索2.TabIndex = 1
+        Me.BbButton検索2.Text = "検索"
+        '
         'Form1
         '
         Me.ClientSize = New System.Drawing.Size(284, 262)
+        Me.Controls.Add(Me.BbButton検索2)
         Me.Controls.Add(Me.BbButton検索1)
         Me.Name = "Form1"
         Me.ResumeLayout(False)
@@ -44,5 +55,6 @@ Partial Class Form1
     End Sub
     Friend WithEvents BbButton汎用1 As BB.BBButton汎用
     Friend WithEvents BbButton検索1 As BB.BBButton検索
+    Friend WithEvents BbButton検索2 As BB.BBButton検索
 
 End Class
