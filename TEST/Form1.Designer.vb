@@ -22,32 +22,27 @@ Partial Class Form1
     'コード エディターを使って変更しないでください。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.BbButton汎用1 = New BB.BBButton汎用()
+        Me.BbButton検索1 = New BB.BBButton検索()
         Me.SuspendLayout()
         '
-        'BbButton汎用1
+        'BbButton検索1
         '
-        Me.BbButton汎用1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.BbButton汎用1.BBメッセージ表示名 = Nothing
-        Me.BbButton汎用1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.BbButton汎用1.Location = New System.Drawing.Point(14, 86)
-        Me.BbButton汎用1.Name = "BbButton汎用1"
-        Me.BbButton汎用1.Size = New System.Drawing.Size(271, 38)
-        Me.BbButton汎用1.TabIndex = 0
-        Me.BbButton汎用1.Text = "BbButton汎用1"
-        Me.BbButton汎用1.UseVisualStyleBackColor = False
+        Me.BbButton検索1.BBメッセージ表示名 = Nothing
+        Me.BbButton検索1.Location = New System.Drawing.Point(117, 80)
+        Me.BbButton検索1.Name = "BbButton検索1"
+        Me.BbButton検索1.Size = New System.Drawing.Size(111, 53)
+        Me.BbButton検索1.TabIndex = 0
+        Me.BbButton検索1.Text = "検索"
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 262)
-        Me.Controls.Add(Me.BbButton汎用1)
+        Me.Controls.Add(Me.BbButton検索1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents BbButton汎用1 As BB.BBButton汎用
+    Friend WithEvents BbButton検索1 As BB.BBButton検索
 
 End Class
